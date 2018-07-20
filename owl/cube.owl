@@ -1,0 +1,2002 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.fortiss.org/kb/cad/cube.owl#"
+     xml:base="http://www.fortiss.org/kb/cad/cube.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:cad="http://www.fortiss.org/kb/ontobrep.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.fortiss.org/kb/cad/cube.owl">
+        <owl:imports rdf:resource="http://www.fortiss.org/kb/ontobrep.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line1">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector1"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line10">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector10"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position10"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line11">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector11"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line12">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector12"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D1">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face1"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D1"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D10">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face3"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D10"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D10"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D11">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face3"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D11"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D12">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face3"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D12"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D13">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face6"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D13"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D13"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D14">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face6"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D14"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D14"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D15">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face6"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D15"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D15"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D16">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face6"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D16"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D16"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D17">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face2"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D17"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D17"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D18">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face2"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D18"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D18"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D19">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face2"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D19"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D19"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D2">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face1"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D2"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D20">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face2"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D20"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D20"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D21">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face4"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D21"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D21"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D22">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face4"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D22"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D22"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D23">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face4"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D23"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D23"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D24">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face4"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D24"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D24"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D3">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face1"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D3"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D4">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face1"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D4"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D5">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face5"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D5"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D6">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face5"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D6"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D7">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face5"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D7"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D8">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face5"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D8"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line2D9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line2D9">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line2D"/>
+        <cad:containedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face3"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector2D9"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position2D9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line3">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector3"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line4">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector4"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line5">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector5"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line6">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector6"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line7">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector7"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line8">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector8"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Line9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Line9">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Line"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector9"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Plane1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Plane1">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Plane"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector13"/>
+        <cad:directionX rdf:resource="http://www.fortiss.org/kb/cad/Vector14"/>
+        <cad:directionY rdf:resource="http://www.fortiss.org/kb/cad/Vector15"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position13"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Plane2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Plane2">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Plane"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector16"/>
+        <cad:directionX rdf:resource="http://www.fortiss.org/kb/cad/Vector17"/>
+        <cad:directionY rdf:resource="http://www.fortiss.org/kb/cad/Vector18"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position14"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Plane3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Plane3">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Plane"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector19"/>
+        <cad:directionX rdf:resource="http://www.fortiss.org/kb/cad/Vector20"/>
+        <cad:directionY rdf:resource="http://www.fortiss.org/kb/cad/Vector21"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position15"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Plane4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Plane4">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Plane"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector22"/>
+        <cad:directionX rdf:resource="http://www.fortiss.org/kb/cad/Vector23"/>
+        <cad:directionY rdf:resource="http://www.fortiss.org/kb/cad/Vector24"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position16"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Plane5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Plane5">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Plane"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector25"/>
+        <cad:directionX rdf:resource="http://www.fortiss.org/kb/cad/Vector26"/>
+        <cad:directionY rdf:resource="http://www.fortiss.org/kb/cad/Vector27"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position17"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Plane6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Plane6">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Plane"/>
+        <cad:directionNormal rdf:resource="http://www.fortiss.org/kb/cad/Vector28"/>
+        <cad:directionX rdf:resource="http://www.fortiss.org/kb/cad/Vector29"/>
+        <cad:directionY rdf:resource="http://www.fortiss.org/kb/cad/Vector30"/>
+        <cad:position rdf:resource="http://www.fortiss.org/kb/cad/Position18"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Point1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Point1">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Point"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Point2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Point2">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Point"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Point3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Point3">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Point"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Point4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Point4">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Point"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Point5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Point5">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Point"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Point6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Point6">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Point"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Point7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Point7">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Point"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Point8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Point8">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Point"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position1">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position10">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position11">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position12">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position13">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position14">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position15">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position16">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position17">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position18">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D1">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D10">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D11">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D12">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D13">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D14">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D15">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D16">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D17">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D18">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D19">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-10.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D2">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D20">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D21">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D22">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D23">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D24">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D3">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-10.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D4">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D5">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D6">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D7">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D8">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position2D9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position2D9">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position3">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position4">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position5">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position6">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position7">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position8">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Position9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Position9">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Position"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector1">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector10">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector11">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector12">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector13">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector14">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector15">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector16">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector17">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector18">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector19">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector20">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector21">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector22">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector23">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector24">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector25 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector25">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector26 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector26">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector27 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector27">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector28 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector28">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector29 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector29">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D1">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D10">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D11">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D12">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D13">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D14">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D15">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D16">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D17">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D18">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D19">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D2">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D20">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D21">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D22">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D23">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D24">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D3">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D4">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D5">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D6">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D7">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D8">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector2D9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector2D9">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector2D"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector3">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector30">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector4">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector5">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector6">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector7">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector8">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/cad/Vector9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/cad/Vector9">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vector"/>
+        <cad:x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:x>
+        <cad:y rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cad:y>
+        <cad:z rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cad:z>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Edge1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Edge1">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge4"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex1"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex2"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D1"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D12"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Line4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Edge10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Edge10">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge1"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge8"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex2"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex6"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D11"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D14"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Line1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Edge11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Edge11">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge3"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge6"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex3"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex7"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D21"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D6"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Line6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Edge12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Edge12">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge7"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex4"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex8"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D16"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D23"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Line11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Edge2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Edge2">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge11"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex1"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex3"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D4"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D5"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Line12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Edge3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Edge3">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge12"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge2"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex3"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex4"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D22"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D3"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Line10"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Edge4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Edge4">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge10"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge3"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex2"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex4"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D13"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D2"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Line5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Edge5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Edge5">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge10"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge6"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex5"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex6"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D10"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D17"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Line9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Edge6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Edge6">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge7"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge9"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex5"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex7"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D18"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D7"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Line8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Edge7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Edge7">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge8"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex7"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex8"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D19"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D24"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Line7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Edge8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Edge8">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge12"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex6"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex8"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D15"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D20"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Line2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Edge9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Edge9">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge"/>
+        <cad:adjacentEdge rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge5"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex1"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex5"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D8"/>
+        <cad:pcurve rdf:resource="http://www.fortiss.org/kb/cad/Line2D9"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Line3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Face1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Face1">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Wire1"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Plane1"/>
+        <cad:orientation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REVERSED</cad:orientation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Face2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Face2">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Wire2"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Plane5"/>
+        <cad:orientation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FORWARD</cad:orientation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Face3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Face3">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Wire3"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Plane3"/>
+        <cad:orientation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REVERSED</cad:orientation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Face4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Face4">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Wire4"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Plane6"/>
+        <cad:orientation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FORWARD</cad:orientation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Face5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Face5">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Wire5"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Plane2"/>
+        <cad:orientation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REVERSED</cad:orientation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Face6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Face6">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Wire6"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Plane4"/>
+        <cad:orientation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FORWARD</cad:orientation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Shell1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Shell1">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Shell"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face1"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face2"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face3"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face4"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face5"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Face6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Solid1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Solid1">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Solid"/>
+        <cad:boundedBy rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Shell1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Vertex1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Vertex1">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Point4"/>
+        <cad:orientation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FORWARD</cad:orientation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Vertex2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Vertex2">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Point5"/>
+        <cad:orientation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REVERSED</cad:orientation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Vertex3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Vertex3">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Point6"/>
+        <cad:orientation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FORWARD</cad:orientation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Vertex4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Vertex4">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Point3"/>
+        <cad:orientation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FORWARD</cad:orientation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Vertex5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Vertex5">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Point2"/>
+        <cad:orientation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REVERSED</cad:orientation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Vertex6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Vertex6">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Point7"/>
+        <cad:orientation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FORWARD</cad:orientation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Vertex7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Vertex7">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Point8"/>
+        <cad:orientation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REVERSED</cad:orientation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Vertex8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Vertex8">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Vertex"/>
+        <cad:representedBy rdf:resource="http://www.fortiss.org/kb/cad/Point1"/>
+        <cad:orientation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REVERSED</cad:orientation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Wire1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Wire1">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Wire"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge1"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge2"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge3"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge4"/>
+        <cad:firstElement rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Wire2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Wire2">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Wire"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge5"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge6"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge7"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge8"/>
+        <cad:firstElement rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Wire3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Wire3">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Wire"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge1"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge10"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge5"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge9"/>
+        <cad:firstElement rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Wire4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Wire4">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Wire"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge11"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge12"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge3"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge7"/>
+        <cad:firstElement rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Wire5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Wire5">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Wire"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge11"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge2"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge6"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge9"/>
+        <cad:firstElement rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fortiss.org/kb/ontobrep.owl#Wire6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.fortiss.org/kb/ontobrep.owl#Wire6">
+        <rdf:type rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Wire"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge10"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge12"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge4"/>
+        <cad:contains rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge8"/>
+        <cad:firstElement rdf:resource="http://www.fortiss.org/kb/ontobrep.owl#Edge4"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
